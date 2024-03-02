@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("./Assets/img.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+img{
+    height: 400px;
+    width: auto;
+    position:absolute;
+    border: 30px solid white;
+    margin-top: 50px;
+    margin-left: 50px;
+    border-radius: 10%;
+}
+div{
+    height: 300px;
+    width: 700px;
+    position: absolute;
+    left: 50px;
+    top: 500px;
+}
+h1{
+    color:black;
+    background-color: white;
+    font-family: sans-serif;
+    font-size: 5em;
+    text-align: left;
+}
+p{
+    color:orangered;
+    font-size: small;
+    font-size: 5em;
+}
+.cutom-button{
+    color: orangered;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 10x solid white;
+    cursor: pointer;
+    position: absolute;
+    display: block;
+}
