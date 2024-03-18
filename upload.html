@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Accurate Product Classifier</title>
+  <link rel="stylesheet" href="./reset.css" />
+  <!--<link rel="stylesheet" href="./home.css" />-->
+  <link rel="icon" type="image/x-icon" href="./imgs/favicon.png" />
+  <style>
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+      background-color: #f0f0f0;
+      border-bottom: 5px solid #ff8800;
+      font-size: 2rem;
+      font-family: 'Poppins';
+    }
+    .logo {
+      font-weight: bold;
+    }
+    .user-logo {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      background-color: #ccc;
+      margin-right: 1%;
+    }
+    .content {
+      text-align: center;
+      margin-top: 50px;
+    }
+    .upload-text {
+     font-weight: bold;
+    font-size: 3rem;
+    color: black;
+    background-color: transparent;
+    }
+    .upload-button {
+      text-align: center;
+      background-color: #1a30c1;
+      color: #fff;
+      padding: 20px 30px;
+      border: none;
+      border-radius: 5px;
+      margin-top: 40px;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 1.5rem;
+    }
+    .centered-text-container {
+      text-align: center;
+      position: relative;
+      margin: 40px 0;
+    }
+    /* Style for the HR line */
+    .hr-line {
+      height: 5px;
+      background-color: #ff8800;
+      margin: 40px 0;
+    }
+    /* Style for the text */
+    .centered-text {
+      color: #ff8800;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #fff; /* Set a background color if needed */
+      padding: 0 10px; /* Add some padding for better visibility */
+    }
+    .enter-info-button {
+      background-color: #1a30c1;
+      color: #fff;
+      padding: 20px 30px;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 1.5rem;
+      margin-top: 30px;
+    }
+    .back-button {
+      background-color: black;
+      padding: 15px 30px; 
+      border: none;
+      border-radius: 5px;
+      margin-top: 30px;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 1rem;
+      position: absolute;
+      bottom: 10px;
+      left: 10px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <div class="navbar">
+    <!-- Left corner -->
+    <div class="logo">Product<br>Classifier</div>
+    <!-- Middle -->
+    <div class="technical-info">Technical Information</div>
+    <!-- Right corner -->
+    <div class="user-logo"><img src="./Assets/userlogo.png"/></div>
+  </div>
+
+  <!-- Content -->
+  <div class="content">
+    <h1 class="upload-text">Upload the Excel<br>File here</h1>
+    <button class="upload-button" style="text-decoration: none;"><a href="./upload.html">&rightarrow;Upload File</a></button>
+    <div class="centered-text-container">
+      <hr class="hr-line">
+      <div class="centered-text">OR</div>
+    </div>
+    <button class="enter-info-button">Enter the Information<br>Yourself!!</button>
+    <button class="back-button"><a href="./index.html" style="text-decoration: none; color: white;">Back</a></button>
+  </div>
+  
+</body>
+</html>
